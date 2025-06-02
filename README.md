@@ -1,60 +1,55 @@
-Análisis de Datos NBA - Temporada 2023 🏀
-Este repositorio contiene una serie de funciones desarrolladas en Python, ejecutadas a través de Google Colab, que permiten analizar estadísticas detalladas del rendimiento de los jugadores de la NBA durante la temporada 2023. El análisis se basa en un archivo .csv que recopila datos clave como puntos, asistencias, rebotes, edad, minutos jugados, triples marcados, entre otros indicadores individuales y por equipo.
+# NBA Data Analysis - 2023 Season 🏀
 
-📌 Tecnologías y herramientas utilizadas
-Lenguaje: Python
+This repository contains a series of Python functions, developed and executed using Google Colab, that allow for detailed analysis of player performance statistics from the 2023 NBA season. The analysis is based on a `.csv` file that includes key data such as points, assists, rebounds, age, minutes played, three-pointers made, and other individual and team indicators.
 
-Entorno: Google Colab (Jupyter Notebook)
+## 📌 Technologies & Tools Used
 
-Librerías:
+- **Language:** Python  
+- **Environment:** Google Colab (Jupyter Notebook)  
+- **Libraries:**  
+  - `pandas` for data manipulation  
+  - `plotly` for interactive visualizations  
+  - `matplotlib` for basic bar charts  
+- **Data Source:** CSV file with player statistics from the 2023 NBA season
 
-pandas para manipulación de datos
+## 🔍 Main Features
 
-plotly para visualizaciones interactivas
+The project includes interactive and visual functions to answer key questions in sports data analysis:
 
-matplotlib para gráficos de barras simples
+### 📊 Individual Player Analysis
 
-Fuente de datos: Archivo CSV con estadísticas de jugadores NBA 2023
+- **Top 5 Triple-Double Leaders:** players with the most games recording 10+ in points, assists, and rebounds  
+- **Top 5 Double-Double Leaders:** players with 10+ in any two of the three core stats  
+- **Search by Player Name:** displays age, team, points, and minutes played  
+- **Highest Scoring Player:** identifies the top scorer of the season  
+- **Player with Fewest Minutes Played:** useful for bench or underused players  
+- **Best Defender:** based on the sum of successful steals and blocks  
+- **Worst Impact Player:** based on net point differential (points scored vs allowed while on court)
 
-🔍 Funcionalidades principales
-El proyecto incluye funciones interactivas y visuales para responder preguntas clave del análisis deportivo:
+### 🏀 Team-Based Analysis
 
-📊 Análisis Individual de Jugadores
-Top 5 en triples dobles: jugadores con más partidos con +10 puntos, asistencias y rebotes.
+- **Team Comparison:** total points, assists, and rebounds between any two selected teams  
+- **Team MVP:** player with the most points from a selected team  
+- **Youngest & Oldest Players on a Team**  
+- **Average Team Age:** shown via a bar chart
 
-Top 5 en dobles dobles: jugadores con +10 en dos de las tres estadísticas clave.
+### 📈 Visualizations
 
-Buscar jugador por nombre: muestra edad, equipo, puntos y minutos jugados.
+- **Top 10 Three-Point Shooters:** bar chart using Plotly  
+- **Average Age by Team:** basic bar chart using Matplotlib
 
-Jugador con más puntos: identifica al máximo anotador de la temporada.
+## 📁 Project Structure
 
-Jugador con menos minutos jugados: útil para análisis de banca o jugadores poco utilizados.
+├── 2023_nba_player_stats.csv   # Dataset with player statistics
+├── nba_analysis.ipynb          # Main notebook with all implemented functions
+└── README.md                   # This file
 
-Mejor defensor: basado en la suma de robos y bloqueos exitosos.
+###💡 Additional Notes
+- Several functions are interactive: they prompt the user for input (e.g., player or team names)
+- Data must be cleaned and well-structured for all functions to work correctly
+- Visualizations help highlight trends and insights clearly and effectively
 
-Peor impacto: muestra jugadores con balance negativo entre puntos anotados y recibidos en cancha.
 
-🏀 Análisis por Equipo
-Comparativa entre equipos: total de puntos, asistencias y rebotes de dos equipos seleccionados.
-
-MVP del equipo: jugador con más puntos de un equipo específico.
-
-Jugador más joven y más veterano de un equipo.
-
-Promedio de edad por equipo: visualizado en un gráfico de barras.
-
-📈 Visualizaciones
-Top 10 jugadores con más triples marcados: gráfico de barras interactivo.
-
-Edad promedio por equipo: gráfico de barras tradicional.
-
-💡 Observaciones adicionales
-Las funciones son interactivas: solicitan entrada del usuario para ciertos análisis (como nombres de jugadores o equipos).
-
-Los datos deben estar limpios y estructurados correctamente para que las funciones se ejecuten sin errores.
-
-El uso de visualizaciones ayuda a comunicar mejor los hallazgos y patrones en los datos.
-
-🤝 Créditos
+🤝 Credits
 Proyecto realizado como parte del curso de Análisis de Datos (2023) con ayuda de Anthony Li, Didier Miranda, Gabriel Chavarría , mi persona, Gabriel Jiménez
 
