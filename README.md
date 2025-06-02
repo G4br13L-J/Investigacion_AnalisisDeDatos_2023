@@ -44,12 +44,12 @@ The project includes interactive and visual functions to answer key questions in
 ├── nba_analysis.ipynb          # Main notebook with all implemented functions
 └── README.md                   # This file
 
-###💡 Additional Notes
+### 💡 Additional Notes
 - Several functions are interactive: they prompt the user for input (e.g., player or team names)
 - Data must be cleaned and well-structured for all functions to work correctly
 - Visualizations help highlight trends and insights clearly and effectively
 
 
-###🤝 Credits
+### 🤝 Credits
 Proyecto realizado como parte del curso de Análisis de Datos (2023) con ayuda de Anthony Li, Didier Miranda, Gabriel Chavarría , mi persona, Gabriel Jiménez
 
