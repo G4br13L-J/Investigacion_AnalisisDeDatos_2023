@@ -50,6 +50,6 @@ The project includes interactive and visual functions to answer key questions in
 - Visualizations help highlight trends and insights clearly and effectively
 
 
-🤝 Credits
+###🤝 Credits
 Proyecto realizado como parte del curso de Análisis de Datos (2023) con ayuda de Anthony Li, Didier Miranda, Gabriel Chavarría , mi persona, Gabriel Jiménez
 
