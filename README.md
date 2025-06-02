@@ -39,11 +39,11 @@ The project includes interactive and visual functions to answer key questions in
 - **Average Age by Team:** basic bar chart using Matplotlib
 
 ## 📁 Project Structure
-
+```
 ├── 2023_nba_player_stats.csv   # Dataset with player statistics
 ├── nba_analysis.ipynb          # Main notebook with all implemented functions
 └── README.md                   # This file
-
+```
 ### 💡 Additional Notes
 - Several functions are interactive: they prompt the user for input (e.g., player or team names)
 - Data must be cleaned and well-structured for all functions to work correctly
