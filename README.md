@@ -51,5 +51,5 @@ The project includes interactive and visual functions to answer key questions in
 
 
 ### 🤝 Credits
-Proyecto realizado como parte del curso de Análisis de Datos (2023) con ayuda de Anthony Li, Didier Miranda, Gabriel Chavarría , mi persona, Gabriel Jiménez
+Project developed as part of the Data Analysis course (2023) with the help of Anthony Li, Didier Miranda, Gabriel Chavarría, myself, Gabriel Jiménez.
 
